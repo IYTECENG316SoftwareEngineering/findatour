@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ozanalpay.draft" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Find A Tour"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".TouristMain"
+            android:label="@string/title_activity_tourist_main" >
+        </activity>
+        <activity
+            android:name=".TourDetail"
+            android:label="@string/title_activity_tour_detail" >
+        </activity>
+        <activity
+            android:name=".CreateTourActivity"
+            android:label="@string/title_activity_create_tour" >
+        </activity>
+        <activity
+            android:name=".TourGuideMainActivity"
+            android:label="@string/title_activity_tour_guide_main" >
+        </activity>
+        <activity
+            android:name=".TourAdminActivity"
+            android:label="@string/title_activity_tour_admin" >
+        </activity>
+    </application>
+
+</manifest>

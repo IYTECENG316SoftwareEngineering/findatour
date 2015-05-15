@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.ozanalpay.draft.TourAdminActivity">
+
+    <EditText
+        android:id="@+id/tour_guide_name_input_from_admin"
+        android:hint="Enter Name of Tour Guide "
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/tour_guide_surname_input_from_admin"
+        android:hint="Enter Surname of Tour Guide "
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/tour_guide_email_input_from_admin"
+        android:hint="Enter E-mail of Tour Guide"
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/tour_guide_password_input_from_admin"
+        android:hint="Enter Password of Tour Guide"
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/create_tour_guide_button_from_admin"
+        android:hint="Create Tour Guide"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
